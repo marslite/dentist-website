@@ -2,6 +2,10 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import { Route, Routes, Link, Navigate } from 'react-router-dom'
+import Contact from './Contact';
+import Procedures from './Procedures'
+import Home from './Home';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,12 +13,18 @@ function App() {
   return (
       <div>
           <nav>
-            <a href="/">Go to Home Page</a>
-            <a href="/procedures">See Our Procedures</a>
-            <a href="/contact">Contact Us!</a>
+
+            <Link to="/">Go to Homepage</Link>
+            <Link to='/procedures'>See Our Procedures</Link>
+            <Link to='/contact'> Contact Us!</Link>
           </nav>
           <div>
-            <Home />
+            <Routes>
+              <Route path="/" element={<Home/>}></Route>
+              <Route path="/procedures" element={<Procedures/>}></Route>
+              <Route path="/contact" element={<Contact/>}></Route>
+            </Routes>
+
           </div>
        </div>
   )
