@@ -1,8 +1,9 @@
 import React from "react";
+import "./Procedures.css"
 
 const Procedures = () => {
     return (
-      <div>
+      <div className="div_bar">
         <h1>Procedures</h1>
         <p>
           Here at Dentist Office we provide a wide variety of procedures. We

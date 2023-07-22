@@ -11,12 +11,12 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-      <div>
-          <nav>
+      <div className='div_space'>
+          <nav className='navbar_btn'>
 
-            <Link to="/">Go to Homepage</Link>
-            <Link to='/procedures'>See Our Procedures</Link>
-            <Link to='/contact'> Contact Us!</Link>
+            <Link className='homepage_btn' to="/"><button className='nav_btn'>Go to Homepage</button></Link>
+            <Link className='proced_btn' to='/procedures'> <button className='nav_btn'>See Our Procedure</button> </Link>
+            <Link className='contact_btn' to='/contact'> <button className='nav_btn'>Contact Us!</button></Link>
           </nav>
           <div>
             <Routes>
