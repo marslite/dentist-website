@@ -1,16 +1,18 @@
 
-/* 
-nav_bar{
+
+
+.div_bar {
+    border: solid black;
+    border-radius: 45px;
+    width: 924px;
     display: flex;
-    
+    height: 700px;
+    justify-content: stretch;
+    margin-left: 77px;
+    margin-top: 66px;
+    flex-direction: column;
 }
 
-.div_bar{
-    border: solid;
-    border-radius: 37px;
-    width: 538px;
-    display: flex;
-    height: 68px;
-    justify-content: space-around;
-    align-items: center;
+/* h1{
+    color:aqua
 } */

@@ -4,7 +4,7 @@ const Home = () => {
     return (
       <div>
         <h1>Dentist Website</h1>
-        <p>Welcome to my dentist website.</p>
+        <button className="welcome_btn">Welcome to my dentist website.</button>
       </div>
     );
   

@@ -58,7 +58,6 @@
 
 
 
-
 .div_space{
   margin-bottom: 160px;
   align-items: center;
@@ -79,7 +78,13 @@
 }
 
 
-
+.welcome_btn {
+  border:solid lightgray;
+  border-radius: 20px;
+  height: 39px;
+  width: 291px;
+  border-style: inset;
+}
 
 body{
   /* background-image: url('https://cdn.pixabay.com/photo/2017/03/31/15/34/cactus-2191647_1280.jpg'); */
