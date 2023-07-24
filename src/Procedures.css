@@ -4,6 +4,7 @@
 .div_bar {
     border: solid black;
     border-radius: 45px;
+    border-style: groove;
     width: 924px;
     display: flex;
     height: 700px;
@@ -13,6 +14,53 @@
     flex-direction: column;
 }
 
-/* h1{
-    color:aqua
-} */
+
+
+   
+
+
+
+.procedures {
+    list-style: square;
+    list-style-position: inside;
+    list-style-image: url('https://icons.iconarchive.com/icons/fatcow/farm-fresh/24/tooth-icon.png');
+    /*! margin-left: 31px; */
+    padding: -5px;
+    border: solid;
+    border-radius: 20px;
+    border-style: ridge;
+    accent-color: azure;
+    border-width: 10px;
+    /*! width: 215px; */
+    text-align: left;
+    margin: 0;
+    margin-left: 26px;
+    /*! margin: -2px; */
+    width: 225px;
+    border-color: aquamarine;
+    background-color: aquamarine;
+}
+
+.list_div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.proc_li{
+    margin: 2px;
+    padding: 2px;
+    color: solid black;
+}
+
+.btn_list{
+    height: 35px;
+    width: 186px;
+}
+
+
+
+
+
+
+   
