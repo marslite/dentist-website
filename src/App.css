@@ -57,17 +57,19 @@
 
 
 
-
-.div_space{
+.div_space {
   margin-bottom: 160px;
   align-items: center;
   height: 897px;
   width: 1052px;
-  background-image: url('https://cdn.pixabay.com/photo/2021/09/23/19/08/background-6650672_1280.jpg');
+  background-image: url('https://cdn.pixabay.com/photo/2020/09/03/03/43/abstract-5540113_1280.png');
   background-size: cover;
   background-repeat: no-repeat;
   border: blue;
   border-radius: 20px;
+  /*! border-width: 76px; */
+  border: solid gainsboro;
+  border-width: 7px;
 }
 
 .nav_btn{
@@ -89,7 +91,10 @@
 
 body{
   /* background-image: url('https://cdn.pixabay.com/photo/2017/03/31/15/34/cactus-2191647_1280.jpg'); */
-  background-image: url('https://cdn.pixabay.com/photo/2020/06/29/14/46/world-5352923_1280.png');
+  /* background-image: url('https://cdn.pixabay.com/photo/2020/06/29/14/46/world-5352923_1280.png'); */
+  /* background-image: url('https://cdn.pixabay.com/photo/2018/07/16/07/11/background-3541330_1280.jpg'); */
+  /* background-image: url('https://cdn.pixabay.com/photo/2023/04/17/12/10/pattern-7932239_1280.jpg'); */
+  background-image: url('https://cdn.pixabay.com/photo/2022/05/02/11/39/floral-7169439_1280.png');
   background-size: cover;
 }
 

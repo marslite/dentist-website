@@ -1,20 +1,21 @@
 
 
 
+
 .div_bar {
     border: solid black;
     border-radius: 45px;
     border-style: groove;
+    border-width: 13px;
     width: 924px;
     display: flex;
-    height: 700px;
+    height: 550px;
     justify-content: stretch;
-    margin-left: 77px;
+    margin-left: 54px;
     margin-top: 66px;
     flex-direction: column;
+    background-image: url('https://cdn.pixabay.com/photo/2021/01/25/22/45/leaves-5949884_1280.png')
 }
-
-
 
    
 
@@ -60,6 +61,36 @@
 }
 
 
+.div_bar > p:nth-child(2) {
+    text-align: left;
+    border: solid;
+    /*! text-emphasis-style: initial; */font-size: larger;
+    font-style: revert-layer;
+    background: antiquewhite;
+    border-color: antiquewhite;
+    border-radius: 11px;
+    
+   }
+
+
+
+
+
+   
+   .proc_btn {
+    border:solid;
+    border-radius: 20px;
+    height: 56px;
+    margin-top: 18px;
+    width: 256px;
+    margin-left: 347px;
+    justify-content: stretch;
+    text-align: center;
+    pointer-events: none;
+    font-size: xx-large;
+    height: 73px;
+    border-style: revert;
+   }
 
 
 

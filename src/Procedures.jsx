@@ -4,7 +4,7 @@ import "./Procedures.css"
 const Procedures = () => {
     return (
       <div className="div_bar">
-        <h1>Procedures</h1>
+        <button className="proc_btn">Procedures</button>
 
         <p>
           Here at Dentist Office we provide a wide variety of procedures. We
